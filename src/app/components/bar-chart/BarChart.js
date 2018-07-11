@@ -22,11 +22,11 @@ class BarChart extends Component {
     render () {
         return (
             <div>
-                <h2> Wlecome to bar charts components</h2>
+                <h2> Welcome to bar charts components</h2>
                     {
                         this.state.posts.map(post => 
                             <p key={post.id}>{post.title}</p>
-                    )
+                        )
                     }
 
                     <h2>Comments</h2>
@@ -35,6 +35,8 @@ class BarChart extends Component {
                             <p key={post.id}>{post.body}</p>
                         )
                     }
+
+
             </div>
         )
     };

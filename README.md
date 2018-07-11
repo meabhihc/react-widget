@@ -2450,3 +2450,13 @@ If you have ideas for more “How To” recipes that should be on this page, [le
 3. git push -u origin <branch-name>
 4. git branch
 5. git checkout <check-in-hash-code>
+
+
+# firebse deployments
+1. npm install -g firebase-tools
+2. firebase init: dont override the index.html while initiating the firebase
+3. run npm run deploy and proceeed to firebase deploy.
+4. urls "https://widget-react.firebaseapp.com/"
+
+# React helpful links
+1. https://reactjs.org/docs/optimizing-performance.html
